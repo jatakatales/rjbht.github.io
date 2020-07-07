@@ -27,8 +27,8 @@ p {
 /* Header/Blog Title */
 .header {
   padding: 30px;
-  text-align: center;
-  background: white;
+a  border-bottom-style: solid;
+  border-width: thin;
 }
 
 .header h1 {
@@ -62,13 +62,22 @@ p {
 /* Left column */
 .leftcolumn {   
   float: left;
-  width: 25%;
+  width: 33.25%;
+  padding-right: 10px; 
+}
+
+/* Middle column */
+.midcolumn {   
+  float: left;
+  width: 33.5%;
+  padding-left: 10px;
+  padding-right: 10px;  
 }
 
 /* Right column */
 .rightcolumn {
   float: left;
-  width: 75%;
+  width: 33.25%;
   background-color: #f1f1f1;
   padding-left: 10px;
 }
@@ -97,8 +106,9 @@ p {
 /* Footer */
 .footer {
   padding: 6px;
-  text-align: center;
+  text-align: left;
   background: #ddd;
+  opacity: 0;
   margin-top: 10px;
 }
 
@@ -120,8 +130,8 @@ p {
 </style>
 </head>
 <body>
-
-<!-- <div class="header">
+<!--
+<div class="header">
   <h1>My Website</h1>
   <p>Resize the browser window to see the effect.</p>
 </div> -->
@@ -129,45 +139,53 @@ p {
 <div class="topnav"><p style="font-size:16px">
   <a href="#"><b>Rajat Bhatia</b></a>
 <!--  <a href="#">Link 1</a> -->
-  <a href="#" style="float:right">Link 4</a>
-  <a href="#" style="float:right">Link 4</a>
-  <a href="#" style="float:right">Link 4</a>
-  <a href="#" style="float:right">Link 4</a>
+  <a href="#" style="float:right">Medium</a>
+  <a href="#" style="float:right">Github</a>
+  <a href="#" style="float:right">Wordpress</a>
+  <a href="#" style="float:right">Twitter</a>
 </p></div>
+
+<div class="header">
+  <h1>Hey, I'm Rajat</h1>
+  <p>and this is webpage is a repository of my projects and notes</p>
+</div> 
 
 <div class="row">
   <div class="leftcolumn">
-    <div class="card">   
-      <h2>About Me</h2>
-      <div class="fakeimg" style="height:100px;">Image</div>
-      <p>Some text about me in culpa qui officia deserunt mollit anim..</p>        
-    </div>
-<!--    <div class="card">
-      <h3>Follow Me</h3>
-      <p>Some text..</p>
-      </div> -->
-  </div>
-  <div class="rightcolumn">
-    <div class="card">      
-      <h2>TITLE HEADING</h2>
-      <h5>Title description, Dec 7, 2017</h5>
+    <div class="card">    
+      <h2>RESUME</h2>
+      <h5>Title description, Sep 2, 2017</h5>
       <div class="fakeimg" style="height:200px;">Image</div>
       <p>Some text..</p>
-      <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>    
-    </div>
+      <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco. xxxxxxxxxx         </p>
+    </div> 
+  </div>
+  
+  <div class="midcolumn">
     <div class="card">    
-      <h2>TITLE HEADING</h2>
+      <h2>PROJECTS</h2>
       <h5>Title description, Sep 2, 2017</h5>
       <div class="fakeimg" style="height:200px;">Image</div>
       <p>Some text..</p>
       <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
     </div> 
+</div>   
+  
+  
+  <div class="rightcolumn">
+    <div class="card">      
+      <h2>NOTES</h2>
+      <h5>Title description, Dec 7, 2017</h5>
+      <div class="fakeimg" style="height:200px;">Image</div>
+      <p>Some text..</p>
+      <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco. xxxxxx        </p>    
+    </div>
   </div>
 </div>
-
+<!--
 <div class="footer">
   <p>© 2017 Rajat Bhatia</p>
-</div>
+</div> -->
 
 </body>
 </html>
