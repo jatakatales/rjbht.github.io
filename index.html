@@ -97,6 +97,22 @@ p {
   margin-top: 20px;
 }
 
+/* Add hyperlink buttons within cards */
+.card a:link, a:visited {
+  background-color: white;
+  color: black;
+  padding: 1px 1px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.card a:hover, a:active {
+  background-color: black;
+  color: white;
+}
+
+
 /* Clear floats after the columns */
 .row:after {
   content: "";
@@ -155,7 +171,7 @@ p {
 <div class="row">
   <div class="leftcolumn">
     <div class="card">    
-      <h2>RESUME</h2>
+      <h2><a href="/resume.html">RESUME</a></h2>
       <h5>Title description, Sep 2, 2017</h5>
       <div class="fakeimg" style="height:200px;">Image</div>
       <p>Some text..</p>
@@ -165,7 +181,7 @@ p {
   
   <div class="midcolumn">
     <div class="card">    
-      <h2>PROJECTS</h2>
+      <h2><a href="/projects.html">PROJECTS</a></h2>
       <h5>Title description, Sep 2, 2017</h5>
       <div class="fakeimg" style="height:200px;">Image</div>
       <p>Some text..</p>
@@ -176,7 +192,7 @@ p {
   
   <div class="rightcolumn">
     <div class="card">      
-      <h2>NOTES</h2>
+      <h2><a href="/notes.html">NOTES</a></h2>
       <h5>Title description, Dec 7, 2017</h5>
       <div class="fakeimg" style="height:200px;">Image</div>
       <p>Some text..</p>
