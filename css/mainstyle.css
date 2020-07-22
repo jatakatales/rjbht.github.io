@@ -1,0 +1,30 @@
+body {
+    background-color: #fafafa;
+    font-family: "Optima";
+}
+
+.main {
+  max-width: 675px;
+  max-height: 400px;
+  position: absolute;
+  left: 50%;
+  top: 45%;
+  transform: translate(-50%, -50%);
+}
+
+a {
+  text-align: right;
+  font-size: 15px;
+}
+
+span {
+  font-size: 14px;
+}
+
+@media screen and (max-width: 481px) {
+  .main {
+    top: 35%;
+    left: 40%;
+    right: -10%;
+  }
+}
