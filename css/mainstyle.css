@@ -18,7 +18,7 @@ a {
 }
 
 .main a:hover {
-  background-color: grey;
+  background-color: DarkSlateGrey;
   color: white;
 }
 
