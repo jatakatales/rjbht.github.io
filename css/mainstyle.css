@@ -4,12 +4,13 @@ body {
 }
 
 .main {
-  max-width: 675px;
-  max-height: 400px;
+/*max-width: 675px;
+  max-height: 400px; */
   position: absolute;
-  left: 50%;
-  top: 45%;
-  transform: translate(-50%, -50%);
+  left: 20%;
+  right: 20%;
+  top: 20%;
+/*transform: translate(-50%, -50%);*/
 }
 
 a {
