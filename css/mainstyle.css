@@ -29,6 +29,12 @@ body {
   padding: 10px;
 }
 
+/*add color on hover for hyperlinks in the side bar*/
+.side a:hover {
+  background-color: DarkSlateGrey;
+  color: white;
+}
+
 /* Main column */
 .main {   
   flex: 80%;
