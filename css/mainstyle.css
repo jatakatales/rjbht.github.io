@@ -3,9 +3,7 @@
 }
 
 body {
-/*  font-family: Optima,Segoe,Segoe UI,Candara,Calibri,Arial,sans-serif; */
-  font-family: PT Sans;
-
+  font-family: Optima,PT Sans,Segoe,Segoe UI,Candara,Calibri,Arial,sans-serif;
   margin: 0;
   padding-left: 10%;
   padding-right: 10%;
