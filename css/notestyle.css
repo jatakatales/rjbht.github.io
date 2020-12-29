@@ -1,0 +1,58 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Optima,PT Sans,Segoe,Segoe UI,Candara,Calibri,Arial,sans-serif;
+  margin: 0;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 10%;
+}
+
+/* Style the header */
+.header {
+  padding-left: 10px;
+}
+
+/* Column container */
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* Create two unequal columns that sits next to each other */
+/* Sidebar/left column */
+.side {
+  flex: 10%;
+  background-color: #f1f1f1;
+  padding: 10px;
+}
+
+/*add color on hover for hyperlinks in the side bar*/
+.side a:hover {
+  background-color: DarkSlateGrey;
+  color: white;
+}
+
+/* Main column */
+.main {
+  flex: 90%;
+  background-color: white;
+  padding: 10px;
+}
+
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 700px) {
+  .row {
+    flex-direction: column;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .navbar a {
+    float: none;
+    width:100%;
+  }
+}
